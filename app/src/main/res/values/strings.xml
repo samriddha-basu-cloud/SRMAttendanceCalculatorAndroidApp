@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SRM Attendance Calculator</string>
+    <string name="srm_attendance_calculator">SRM Attendance Calculator</string>
+    <string name="check_the_number_of_classes_you_needa_attend_to_maintain_the_75_criteria">Check the number of classes you needa attend to maintain the 75% criteria.</string>
+    <string name="branch">Branch</string>
+    <string name="percentage">Percentage:</string>
+    <string name="section">Section :</string>
+    <string name="year">Year :</string>
+    <string name="dept">Dept. :</string>
+    <string name="branch1">Branch :</string>
+</resources>
