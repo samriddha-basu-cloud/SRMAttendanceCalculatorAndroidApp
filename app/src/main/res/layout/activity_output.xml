@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#142738"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/aref_ruqaa"
+
+        android:text="Required number of hours before:"
+        android:textAlignment="center"
+        android:textColor="#FDC93B"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#142738"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 1"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <Spinner-->
+
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="right|center_vertical"-->
+        <!--            android:layout_marginStart="50dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:foregroundGravity="right"-->
+        <!--            android:gravity="right"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <!--        <Spinner-->
+
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:layout_marginStart="70dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 2"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 3"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <Spinner-->
+
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:layout_marginStart="78dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="Semester"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/aref_ruqaa"
+        android:letterSpacing=".1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+
+        android:text="The following number of hours of the subject must be attended to keep the attendance above the margin of 75%."
+        android:textAlignment="center"
+        android:textColor="#FDC93B" />
+
+
+</LinearLayout>

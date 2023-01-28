@@ -15,8 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="@string/enter_the_details"
         android:fontFamily="@font/aref_ruqaa"
+
+        android:text="Required number of hours before:"
         android:textAlignment="center"
         android:textColor="#FDC93B"
         android:textSize="25sp"
@@ -34,157 +35,19 @@
         android:background="#142738"
         android:gravity="center"
         android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/textView_branch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/branch1"
-            android:fontFamily="@font/aref_ruqaa"
-            android:textAlignment="center"
-            android:textColor="#FDC93B"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             android:focusable="true"
+
             android:focusableInTouchMode="true"
-            />
-
-        <Spinner
-            android:id="@+id/spinnerbranch"
-            android:layout_width="120dp"
-            android:layout_height="26dp"
-            android:layout_gravity="right|center_vertical"
-            android:layout_marginStart="50dp"
-            android:background="#FDC93B"
-            android:foregroundGravity="right"
-            android:gravity="right"
-            android:popupBackground="#FDC93B"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#142738"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-
-        <TextView
-            android:id="@+id/textView_dept"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/dept"
             android:fontFamily="@font/aref_ruqaa"
-            android:textAlignment="center"
-            android:textColor="#FDC93B"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:focusable="true"
-            android:focusableInTouchMode="true"/>
-
-        <Spinner
-            android:id="@+id/spinnerdept"
-            android:layout_width="120dp"
-            android:layout_height="26dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="70dp"
-            android:background="#FDC93B"
-            android:popupBackground="#FDC93B"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#142738"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-
-        <TextView
-            android:id="@+id/textView_year"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/year"
-            android:fontFamily="@font/aref_ruqaa"
-            android:textAlignment="center"
-            android:textColor="#FDC93B"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:focusable="true"
-            android:focusableInTouchMode="true"/>
-
-        <Spinner
-            android:id="@+id/spinneryear"
-            android:layout_width="120dp"
-            android:layout_height="26dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="78dp"
-            android:background="#FDC93B"
-            android:popupBackground="#FDC93B"/>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#142738"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-
-        <TextView
-            android:id="@+id/textView_section"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/section"
-            android:fontFamily="@font/aref_ruqaa"
-            android:textAlignment="center"
-            android:textColor="#FDC93B"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:focusable="true"
-            android:focusableInTouchMode="true"/>
-
-        <Spinner
-            android:id="@+id/spinnersection"
-            android:layout_width="120dp"
-            android:layout_height="26dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="48dp"
-            android:background="#FDC93B"
-            android:popupBackground="#FDC93B"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#142738"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Subject"
-            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 1"
             android:textAlignment="center"
             android:textColor="#FDC93B"
             android:textSize="25sp"
@@ -193,91 +56,234 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Spinner
-            android:id="@+id/spinnersubject"
-            android:layout_width="120dp"
-            android:layout_height="26dp"
-            android:layout_gravity="right|center_vertical"
-            android:layout_marginStart="60dp"
-            android:background="#FDC93B"
-            android:foregroundGravity="right"
-            android:gravity="right"
-            android:popupBackground="#FDC93B"/>
+        <!--        <Spinner-->
 
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#142738"
-        android:orientation="horizontal"
-        tools:context=".MainActivity">
-
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="right|center_vertical"-->
+        <!--            android:layout_marginStart="50dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:foregroundGravity="right"-->
+        <!--            android:gravity="right"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
         <TextView
-            android:id="@+id/tvAbsentHour"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/absnt"
-            android:fontFamily="@font/aref_ruqaa"
-            android:textAlignment="center"
-            android:textColor="#FDC93B"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="95dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/ct1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
-            android:layout_marginStart="9dp"
-            android:hint="0"
-            android:layout_marginEnd="2dp"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
             android:foregroundGravity="center"
             android:gravity="center"
-            android:inputType="numberSigned"
-            android:outlineAmbientShadowColor="#FDC93B"
-            android:outlineSpotShadowColor="#FDC93B"
-            android:shadowColor="#FDC93B"
-            android:textColor="#fdc93b"
-            android:textColorHighlight="@color/teal_200"
-            android:textColorHint="#fdc93b"
-            android:textColorLink="#fdc93b"
+            android:text=""
+            android:textColor="#142738"
+            android:textStyle="bold|italic"
             android:fontFamily="@font/aref_ruqaa"
-            android:backgroundTint="#FDC93B"
-            android:ems="10"
-            app:layout_constraintVertical_bias="0.321" />
+            android:textColorHighlight="@color/teal_200"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <!--        <Spinner-->
+
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:layout_marginStart="70dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 2"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ct2"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#142738"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/aref_ruqaa"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="CT - 3"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <Spinner-->
+
+        <!--            android:layout_width="120dp"-->
+        <!--            android:layout_height="26dp"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:layout_marginStart="78dp"-->
+        <!--            android:background="#FDC93B"-->
+        <!--            android:popupBackground="#FDC93B"/>-->
+        <TextView
+            android:id="@+id/ct3"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="79dp"
+            android:background="@drawable/back"
+            android:textColor="#142738"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/aref_ruqaa"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
 
     </LinearLayout>
 
 
-    <Button
-        android:id="@+id/button_submit"
+    <LinearLayout
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="#fdc93b"
-        android:text="Calculate"
-        android:fontFamily="@font/aref_ruqaa"
-        android:textColor="#142738"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        android:background="#142738"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="Semester"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
+        <TextView
+            android:id="@+id/sem"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/back"
+            android:textColor="#142738"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/aref_ruqaa"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142738"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="Percentage  as  of  now"
+            android:textAlignment="center"
+            android:textColor="#FDC93B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/per"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/back"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:textColor="#142738"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text=""
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="85dp"
-        android:text="Check  the  Absent Hours  of  the  subject  from  the  Attendance  page  under  Academics  tab  on  STUDENT  INFORMATION  PORTAL "
+        android:fontFamily="@font/aref_ruqaa"
+        android:letterSpacing=".1"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:letterSpacing=".1"
-        android:fontFamily="@font/aref_ruqaa"
+
+        android:text="The following number of hours of the subject must be attended to keep the attendance above the margin of 75%."
         android:textAlignment="center"
         android:textColor="#FDC93B" />
 

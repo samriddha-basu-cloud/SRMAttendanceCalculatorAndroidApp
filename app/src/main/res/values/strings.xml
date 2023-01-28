@@ -1,11 +1,265 @@
 <resources>
-    <string name="app_name">SRM Attendance Calculator</string>
-    <string name="srm_attendance_calculator">SRM Attendance Calculator</string>
-    <string name="check_the_number_of_classes_you_needa_attend_to_maintain_the_75_criteria">Check the number of classes you needa attend to maintain the 75% criteria.</string>
+    <string name="app_name">75% or not</string>
+    <string name="srm_attendance_calculator">Attendance Calculator</string>
+    <string name="check_the_number_of_classes_you_need_to_attend_to_maintain_the_75_criteria">Check the approx number of classes you need to attend to maintain the 75% criteria.</string>
     <string name="branch">Branch</string>
-    <string name="percentage">Percentage:</string>
+    <string name="absnt">Absent Hours :</string>
     <string name="section">Section :</string>
     <string name="year">Year :</string>
     <string name="dept">Dept. :</string>
     <string name="branch1">Branch :</string>
+    <string name="enter_the_details">Enter the details:</string>
+    <string name="lastly_enter_the_subject_name_percentage_of_attendance_you_currently_bear_as_per_today"><![CDATA[Lastly, enter the subject name & Absent Hours you currently bear as per the last attended lecture.]]></string>
+
+    <string-array name="array_branch">
+        <item>Select Branch</item>
+        <item>B. Tech.</item>
+        <item>B. Sc.</item>
+        <item>B. B. A.</item>
+        <item>B. Pharma.</item>
+        <item>M. Tech.</item>
+    </string-array>
+
+    <string-array name="array_default_dept">
+        <item>Select Dept</item>
+    </string-array>
+
+
+    <string-array name="array_btech_dept">
+        <item>CSE</item>
+        <item>CSBS</item>
+        <item>EEE</item>
+        <item>ECompE</item>
+        <item>Civil</item>
+        <item>ECommE</item>
+        <item>Mech</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="array_bsc_dept">
+        <item>CS</item>
+        <item>HM</item>
+    </string-array>
+
+    <string-array name="array_bba_dept">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="array_bpharma_dept">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="array_mtech_dept">
+        <item>CSE</item>
+    </string-array>
+
+    <string-array name="array_mca_dept">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="array_mba_dept">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="array_default_year">
+        <item>Select Year</item>
+    </string-array>
+
+    <string-array name="array_cse_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_csbs_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_eee_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_ecompe_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_civil_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_ecomme_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_mech_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+    <string-array name="array_auto_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+
+    <string-array name="array_default_section">
+        <item>Select Section</item>
+    </string-array>
+
+    <string-array name="array_first_year">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="array_second_year">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+    </string-array>
+
+    <string-array name="array_third_year">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+
+    <string-array name="array_fourth_year">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+
+    <!--    <item>E</item>-->
+    <!--    <item>F</item>-->
+    <!--    <item>G</item>-->
+    <!--    <item>H</item>-->
+    <!--    <item>I</item>-->
+
+    <string-array name="array_default_subject">
+        <item>Select Subject</item>
+    </string-array>
+
+
+    <string-array name="array_subject_A">
+
+        <item>A.I. n App in CC</item>
+        <item>Comp. Des.</item>
+        <item>Web Dev</item>
+        <item>Energy Cons.</item>
+        <item>Big Data</item>
+        <item>Emp. Skills</item>
+        <item>Ind. Art. Form</item>
+        <item>Comms. Sys. Engg.</item>
+        <item>MOOC</item>
+        <item>CPS III</item>
+        <item>Comprehension</item>
+
+    </string-array>
+
+
+    <string-array name="array_subject_B">
+
+        <item>A.I. n App in CC</item>
+        <item>Comp. Des.</item>
+        <item>Web Dev</item>
+        <item>Energy Cons.</item>
+        <item>Big Data</item>
+        <item>Emp. Skills</item>
+        <item>Ind. Art. Form</item>
+        <item>Comms. Sys. Engg.</item>
+        <item>MOOC</item>
+        <item>CPS III</item>
+        <item>Comprehension</item>
+
+    </string-array>
+
+    <string-array name="array_subject_C">
+
+        <item>A.I. n App in CC</item>
+        <item>Comp. Des.</item>
+        <item>Web Dev</item>
+        <item>Energy Cons.</item>
+        <item>Big Data</item>
+        <item>Emp. Skills</item>
+        <item>Ind. Art. Form</item>
+        <item>Comms. Sys. Engg.</item>
+        <item>MOOC</item>
+        <item>CPS III</item>
+        <item>Comprehension</item>
+
+    </string-array>
+
+
+    <string-array name="array_subject_D">
+
+        <item>A.I. n App in CC</item>
+        <item>Comp. Des.</item>
+        <item>Web Dev</item>
+        <item>Energy Cons.</item>
+        <item>Big Data</item>
+        <item>Emp. Skills</item>
+        <item>Ind. Art. Form</item>
+        <item>Comms. Sys. Engg.</item>
+        <item>MOOC</item>
+        <item>CPS III</item>
+        <item>Comprehension</item>
+
+    </string-array>
+
+
 </resources>
