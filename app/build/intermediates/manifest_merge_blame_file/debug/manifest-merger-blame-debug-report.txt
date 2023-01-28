@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.srmattendancecalculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.srmattendancecalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.srmattendancecalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:5:5-56:19
+18        android:allowBackup="true"
+18-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/samriddha_basu/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.SRMAttendanceCalculator" >
+27-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:13:9-61
+28        <activity
+28-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:15:9-17:40
+29            android:name="com.example.srmattendancecalculator.outputScreen"
+29-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:16:13-41
+30            android:exported="false" />
+30-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:17:13-37
+31        <activity
+31-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:18:9-31:20
+32            android:name="com.example.srmattendancecalculator.output"
+32-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:19:13-35
+33            android:exported="true" >
+33-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:20:13-36
+34
+35            <!-- <intent-filter> -->
+36            <!-- <action android:name="android.intent.action.MAIN" /> -->
+37
+38
+39            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+40            <!-- </intent-filter> -->
+41            <meta-data
+41-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:28:13-30:36
+42                android:name="android.app.lib_name"
+42-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:29:17-52
+43                android:value="" />
+43-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:30:17-33
+44        </activity>
+45        <activity
+45-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:32:9-44:20
+46            android:name="com.example.srmattendancecalculator.SplashScreen"
+46-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:33:13-41
+47            android:exported="true" >
+47-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:34:13-36
+48            <intent-filter>
+48-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:35:13-39:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:36:17-69
+49-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:36:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:38:17-77
+51-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:38:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:28:13-30:36
+55                android:name="android.app.lib_name"
+55-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:29:17-52
+56                android:value="" />
+56-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:30:17-33
+57        </activity>
+58        <activity
+58-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:45:9-51:20
+59            android:name="com.example.srmattendancecalculator.MainActivity"
+59-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:46:13-41
+60            android:exported="false" >
+60-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:47:13-37
+61            <meta-data
+61-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:28:13-30:36
+62                android:name="android.app.lib_name"
+62-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:29:17-52
+63                android:value="" />
+63-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:30:17-33
+64        </activity>
+65
+66        <meta-data
+66-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:53:9-55:57
+67            android:name="preloaded_fonts"
+67-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:54:13-43
+68            android:resource="@array/preloaded_fonts" />
+68-->/Users/samriddha_basu/AndroidStudioProjects/SRMAttendanceCalculator/app/src/main/AndroidManifest.xml:55:13-54
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.srmattendancecalculator.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/samriddha_basu/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/samriddha_basu/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/samriddha_basu/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/samriddha_basu/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>
